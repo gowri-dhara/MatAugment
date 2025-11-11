@@ -53,11 +53,11 @@ class MicrographDataset(Dataset):
         return torch.from_numpy(img).unsqueeze(0)
 
 class DFTPointCloudDataset(Dataset):
-    """
+    '''
     Loads atomic coordinates from CIF files using ASE.
     Each .cif file is one structure -> coordinates normalized to [0,1].
     Pads or trims to a fixed number of atoms if n_atoms is given.
-    """
+    '''
     def __init__(self, folder, n_atoms=None):
         self.files = [
             os.path.join(folder, f)
