@@ -1,0 +1,22 @@
+# path: configs/experiments.yaml
+micrograph:
+  img_size: 128
+  batch_size: 16
+  epochs: 20
+  augs:
+    - none
+    - basic
+    - noise
+    - crop
+    - combined
+
+dft:
+  n_max: 64
+  batch_size: 16
+  epochs: 50
+  augs:
+    - none
+    - jitter
+    - rotation
+    - dropout
+    - combined
