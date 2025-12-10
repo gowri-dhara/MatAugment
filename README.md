@@ -9,7 +9,7 @@ This repository provides a clean, reproducible framework for benchmarking **data
 - Ultrahigh Carbon Steel (UHCS) micrograph images
 - NIST DFT benchmark CIF structures
 
-Problem Stateent: Since microscopy and DFT datasets are often small, noisy, or expensive to collect, the goal of this project is to evaluate how different augmentation techniques affect **self-supervised model performance** on two domains: images and atomic point clouds.
+Problem Stateent: Since microscopy and DFT datasets are often small, noisy, or expensive to collect, the goal of this project is to develop a unified data-augmentation framework (“MatAugment”) to systematically evaluate how geometric, noise-based, and generative augmentations affect model generalization for both DFT and Micrograph datasets, with the goal of improving robustness and performance in materials-informatics workflows.
 
 
 ## Overview
