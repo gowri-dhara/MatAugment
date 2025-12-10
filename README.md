@@ -42,12 +42,13 @@ Performance is measured using:
 
 ---
 
-## Project Structure
-mataugment
-─ micrograph/ # Micrograph AE, augmentations, training & evaluation
-─ dft/ # DFT point-cloud AE, augmentations, training & evaluation
-─ utils/ # Utilities for visualization
+### Project Structure
 
+| Directory | Description |
+| :--- | :--- |
+| `micrograph/` | Micrograph AE, augmentations, training & evaluation |
+| `dft/` | DFT point-cloud AE, augmentations, training & evaluation |
+| `utils/` | Utilities for visualization |
 
 ---
 
